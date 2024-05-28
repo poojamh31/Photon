@@ -1,0 +1,312 @@
+body{
+    background-color: #4686a0;
+    background-attachment: fixed,fixed,fixed;
+    background-image:url(./Images/overlay2.png),url(./Images/overlay3.svg),linear-gradient(45deg,#9dc66b 5%,#4fa49a 30%,#4361c2);
+    background-size: auto,cover,cover;
+    font-family: 'Source Sans 3', sans-serif;
+}
+/* Header css starts here */
+#Header{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+#Header i{
+    font-size: 90px;
+}
+#Header h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+#Header span{
+    font-weight: 900;
+}
+#border{
+    border-bottom: 1px dotted white;
+    cursor: pointer;
+    font-weight: 400 !important;
+}
+#Header p{
+    font-size: 19px;
+}
+#Header button{
+    margin-top: 23px;
+    padding: 15px 35px 15px 35px;
+    border: 1.5px solid white;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+/* Header css ends here */
+/* Image css starts here */
+#Image{
+    background-color: white;
+    width: 100%;
+    height: 520px;
+}
+#Image div{
+    display: inline-block;
+}
+#Image h1{
+    padding-top: 90px;
+    padding-left: 70px;
+    color: #666666;
+    font-size: 37px;
+    word-spacing: 1px;
+    font-weight: 700;
+}
+#content span{
+    border-bottom: 1px solid #666666;
+    padding-bottom: 25px;
+}
+#Image p{
+    padding-left: 70px;
+    color: white;
+}
+#para{
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 19px;
+    color: #666666 !important;
+}
+#image img{
+    margin-top: 90px;
+    margin-left: 60px;
+    border-radius: 8px;
+}
+/* Image css ends here */
+
+/* Icon css Starts here */
+#IconSection{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./Images/header.jpg);
+    width: 100%;
+    height: 800px;
+    margin-bottom: 0px !important;
+    background-attachment: fixed;
+}
+#IconSection div{
+    display: inline-block;
+}
+#icon{
+    margin-top: 100px;
+    width: 35%;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+#icon div{
+    display: inline-block;
+    margin-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+#one{
+    font-size: 120px;
+    color: #c3e895;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#two{
+    font-size: 120px;
+    color: #8addaa;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+#three{
+    font-size: 110px;
+    color: #6bd4c8;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#four{
+    font-size: 120px;
+    color: #57aed3;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#five{
+    font-size: 120px;
+    color: #4a87d3;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#six{
+    font-size: 130px;
+    color: #6b88e6;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#Cont2{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#Cont2 h1{
+    color: white;
+    font-size: 37px;
+    font-weight: 700;
+}
+#Cont2 span{
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+#Cont2 p{
+    padding-top: 20px;
+    color: white;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+/* Icon css ends here */
+
+/* MidPart css starts here */
+#MidPart{
+    margin-top: -25px;
+    background-color: white;
+    width: 100%;
+    height: 820px;
+}
+#MidPart h1{
+    padding-top: 90px;
+    text-align: center;
+    font-size: 37px;
+    color: #666666;
+}
+#MidPart span{
+    border-bottom: 1px solid #666666;
+    padding-bottom: 20px;
+}
+#para1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #666666;
+    font-size: 19px;
+}
+#MidPart div{
+    display: inline-block;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+#MidPart img{
+    width: 350px;
+    border-radius: 6px;
+}
+#MidPart h2{
+    color: #666666;
+    font-size: 27px;
+    font-weight: 400;
+}
+#MidPart p{
+    color: #666666;
+    font-size: 19px;
+
+}
+#MidPart button{
+    margin-top: 15px;
+    padding: 15px 33px 15px 33px;
+    border: 1.5px solid #d2cfcf;
+    border-radius: 6px;
+    background: transparent;
+    color: #666666;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+/* MidPart css ends here */
+
+/* Last css starts here */
+#Last{
+    margin-top: -28px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./Images/header.jpg);
+    width: 100%;
+    height: 480px;
+    margin-bottom: 0px !important;
+    text-align: center;
+    background-attachment: fixed;
+}
+#Last h1{
+    padding-top: 130px;
+    color: white;
+    font-size: 37px;
+    padding-left: 50px;
+}
+#Last span{
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+#Last p{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 19px;
+    color: white;
+}
+#Last ul{
+    display: inline-block;   
+}
+#Last ul li{
+    display: inline-block;   
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#sign button{
+    padding: 15px 70px 15px 70px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    color: #666666;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+#learn button{
+    padding: 15px 50px 15px 50px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+/* Last css ends here */
+/* Footer css starts here */
+#Footer{
+    margin-top: 100px;
+    text-align: center;
+    color: #d3e4e7;
+    margin-bottom: 100px;
+}
+#Footer ul {
+    display: inline-block;
+}
+#Footer ul li{
+    display: inline-block;
+    padding:0px 15px 0px 15px;
+}
+#Footer i{
+    font-size: 30px;
+}
+#abc{
+    margin-top: 20px;
+    font-size: 16px;
+    display: inline;
+}
+#Footer span{
+    border-bottom: 2px dotted #d3e4e7;
+    cursor: pointer;
+}
+#xyz{
+    border-right: 1px solid #d3e4e7;
+    border-left: 1px solid #d3e4e7;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-right: 10px ;
+}
+
+/* Footer css ends here */
